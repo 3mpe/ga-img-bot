@@ -1,0 +1,27 @@
+{
+  "name": "image-downloader-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3mpe"
+  },
+  "author": "Emre Vatansever <vatanseveremre90@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "buffered-writer": "^0.2.3",
+    "express": "^4.14.1",
+    "html-entities": "^1.2.0",
+    "image-downloader": "^2.0.3",
+    "jsonfile": "^2.4.0",
+    "node-xlsx": "^0.7.4",
+    "unirest": "^0.5.1"
+  }
+}
